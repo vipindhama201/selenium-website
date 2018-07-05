@@ -4,4 +4,4 @@ CMD apachectl -D FOREGROUND
 
 RUN rm var/www/html/index.html
 
-ADD Blob /var/www/html/
+ADD php /var/www/html/
